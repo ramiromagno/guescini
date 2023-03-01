@@ -62,7 +62,7 @@ over a wide range of input DNA ($3.14 \times 10^7\ \text{thru}\ 3.14 \times
 mix), while the unknowns were run in the presence of the same starting DNA
 amounts but with amplification mix quantities ranging from 60% to 100%.
 
-```{r dpi=300, fig.width=8, fig.height=4, dev='svg'}
+```{r dpi=300, fig.width=8, fig.height=4}
 library(guescini)
 amp_mix_perc
 
@@ -86,7 +86,7 @@ The data set `IgG_inhibition` provides those runs performed in the presence of
 an optimal amplification reaction mix added with serial dilutions of IgG (0.0 -
 2 ug/ml) thus acting as the inhibitory agent.
 
-```{r dpi=300, fig.width=8, fig.height=4, dev='svg'}
+```{r dpi=300, fig.width=8, fig.height=4}
 IgG_inhibition %>%
   ggplot(mapping = aes(
     x = cycle,

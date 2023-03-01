@@ -86,7 +86,7 @@ amp_mix_perc %>%
   facet_wrap(vars(amp_mix_perc))
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.svg" width="100%" />
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 ### Inhibition by IgG
 
@@ -108,7 +108,7 @@ IgG_inhibition %>%
   guides(color = guide_legend(override.aes = list(linewidth = 0.5)))
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.svg" width="100%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
 ## Code of Conduct
 
