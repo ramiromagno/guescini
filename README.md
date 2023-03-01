@@ -4,6 +4,9 @@
 # guescini
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/guescini)](https://CRAN.R-project.org/package=guescini)
 <!-- badges: end -->
 
 `{guescini}` is an R data package that provides real-time PCR raw
