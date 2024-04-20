@@ -6,7 +6,7 @@
 \alias{guescini-package}
 \title{guescini: Real-Time PCR Data Sets by Guescini et al. (2008)}
 \description{
-Real-time quantitative polymerase chain reaction (qPCR) data by Guescini et al. (2008) \doi{10.1186/1471-2105-9-326} in tidy format. This package provides two data sets where the amplification efficiency has been modulated: either by alterating the amplification mix concentration, or by increasing the concentration of IgG, a PCR inhibitor. Original raw data files: \url{https://static-content.springer.com/esm/art\%3A10.1186\%2F1471-2105-9-326/MediaObjects/12859_2008_2311_MOESM1_ESM.xls} and \url{https://static-content.springer.com/esm/art\%3A10.1186\%2F1471-2105-9-326/MediaObjects/12859_2008_2311_MOESM5_ESM.xls}.
+Real-time quantitative polymerase chain reaction (qPCR) data by Guescini et al. (2008) \doi{10.1186/1471-2105-9-326} in tidy format. This package provides two data sets where the amplification efficiency has been modulated: either by changing the amplification mix concentration, or by increasing the concentration of IgG, a PCR inhibitor. Original raw data files: \url{https://static-content.springer.com/esm/art\%3A10.1186\%2F1471-2105-9-326/MediaObjects/12859_2008_2311_MOESM1_ESM.xls} and \url{https://static-content.springer.com/esm/art\%3A10.1186\%2F1471-2105-9-326/MediaObjects/12859_2008_2311_MOESM5_ESM.xls}.
 }
 \seealso{
 Useful links:
