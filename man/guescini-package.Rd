@@ -12,6 +12,7 @@ Real-time quantitative polymerase chain reaction (qPCR) data by Guescini et al. 
 Useful links:
 \itemize{
   \item \url{https://github.com/ramiromagno/guescini}
+  \item \url{http://rmagno.eu/guescini/}
   \item Report bugs at \url{https://github.com/ramiromagno/guescini/issues}
 }
 

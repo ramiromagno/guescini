@@ -7,6 +7,7 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/guescini)](https://CRAN.R-project.org/package=guescini)
+[![R-CMD-check](https://github.com/ramiromagno/guescini/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ramiromagno/guescini/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `{guescini}` is an R data package that provides real-time PCR raw
@@ -19,13 +20,6 @@ Install `{guescini}` from CRAN:
 ``` r
 # Install from CRAN
 install.packages("guescini")
-```
-
-You can install the development version of `{guescini}` like so:
-
-``` r
-# install.packages("remotes")
-remotes::install_github("ramiromagno/guescini")
 ```
 
 ## Data
