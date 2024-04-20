@@ -57,20 +57,20 @@ with amplification mix quantities ranging from 60% to 100%.
 library(guescini)
 amp_mix_perc
 #> # A tibble: 21,000 × 12
-#>    plate well  dye   target sample_…¹ run   repli…² amp_m…³ copies dilut…⁴ cycle
-#>    <fct> <fct> <fct> <fct>  <fct>     <fct> <fct>     <dbl>  <int>   <int> <int>
-#>  1 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     1
-#>  2 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     2
-#>  3 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     3
-#>  4 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     4
-#>  5 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     5
-#>  6 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     6
-#>  7 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     7
-#>  8 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     8
-#>  9 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1     9
-#> 10 <NA>  <NA>  SYBR  MT-ND1 std       1     1             1 3.14e7       1    10
-#> # … with 20,990 more rows, 1 more variable: fluor <dbl>, and abbreviated
-#> #   variable names ¹​sample_type, ²​replicate, ³​amp_mix_perc, ⁴​dilution
+#>    plate well  dye   target sample_type run   replicate amp_mix_perc   copies
+#>    <fct> <fct> <fct> <fct>  <fct>       <fct> <fct>            <dbl>    <int>
+#>  1 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  2 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  3 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  4 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  5 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  6 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  7 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  8 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#>  9 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#> 10 <NA>  <NA>  SYBR  MT-ND1 std         1     1                    1 31400000
+#> # ℹ 20,990 more rows
+#> # ℹ 3 more variables: dilution <int>, cycle <int>, fluor <dbl>
 
 amp_mix_perc %>%
   ggplot(mapping = aes(
