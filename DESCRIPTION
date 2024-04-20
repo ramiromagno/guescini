@@ -19,7 +19,7 @@ Description: Real-time quantitative polymerase chain reaction (qPCR) data
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/ramiromagno/guescini, http://rmagno.eu/guescini/
+URL: https://github.com/ramiromagno/guescini, https://rmagno.eu/guescini/
 BugReports: https://github.com/ramiromagno/guescini/issues
 RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
