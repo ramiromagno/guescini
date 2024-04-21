@@ -3,7 +3,7 @@
 #' @description
 #' This data set is for a set of quantitative real-time PCR runs that were
 #' performed in the presence of an optimal amplification reaction mix added with
-#' serial dilutions of IgG (0.0, 0.25, 0.50, 1.0, and 2.0 μg/ml) thus acting as
+#' serial dilutions of IgG (0.0, 0.25, 0.50, 1.0, and 2.0 \eqn{\mu g/ml}) thus acting as
 #' the inhibitory agent. There are two replicates for each concentration of IgG.
 #' The concentration of the amplicon ND1/ND2 is 41,700,000 copies.
 #' Please read the Methods section of Guescini et al. (2008) for more details.
@@ -19,7 +19,7 @@
 #' \item{`target`}{Target identifier: the amplicon used, `"MT_ND1"`.}
 #' \item{`sample_type`}{Sample type (all curves are standards, i.e. `"std"`).}
 #' \item{`replicate`}{Replicate identifier: 1 thru 3.}
-#' \item{`IgG_conc`}{IgG concentration in μg/ml.}
+#' \item{`IgG_conc`}{IgG concentration in \eqn{\mu g/ml}.}
 #' \item{`copies`}{Standard copy number.}
 #' \item{`cycle`}{PCR cycle.}
 #' \item{`fluor`}{Raw fluorescence values.}
